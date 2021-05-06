@@ -1,0 +1,265 @@
+@import url("https://use.typekit.net/cwq5cmg.css");
+*{
+	box-sizing: border-box;
+	margin: 0;
+
+}
+body{
+	font-family: "Lato";
+	opacity: 0;
+  	transition: opacity .5s;
+}
+html, body {
+	width: 100%;
+	height:100%;
+}
+/*Navigation*/
+.diploma-DIP{
+position: absolute;
+width: 632.87px;
+height: 235.26px;
+left: 247.11px;
+top: 50px;
+animation-name: mozgasDIP;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+
+}
+@keyframes mozgasDIP {
+	0% {
+		left:150px;
+		top:50px;
+	}
+	50% {
+		left:600px;
+		top:50px;
+	}
+	100% {
+		left:150px;
+		top:50px;
+	}
+}
+.diploma-LO{
+position: absolute;
+width: 535.22px;
+height: 235.13px;
+left: 562.78px;
+top: 350px;
+animation-name: mozgasLO;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+@keyframes mozgasLO {
+	0% {
+		left:750px;
+		top:350px;
+	}
+	50% {
+		left:150px;
+		top:350px;
+	}
+	100% {
+		left:750px;
+		top:350px;
+	}
+}
+.diploma-MA {
+position: relative;
+width: 535.23px;
+height: 235.33px;
+left: 247.11px;
+top: 660.32px;
+animation-name: mozgas;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-delay: 0.5s;
+}
+@keyframes mozgas {
+	0% {
+		left:150px;
+		top:660.32px;
+	}
+	50% {
+		left:600px;
+		top:660.32px;
+	}
+	100% {
+		left:150px;
+		top:660.32px;
+	}
+}
+
+.evszam{
+	position: absolute;
+left: 74.9%;
+right: 13.23%;
+top: 37.96%;
+bottom: 51.76%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 95px;
+line-height: 114px;
+
+color: #FFFFFF;
+}
+.MA {
+position: absolute;
+left: 74.9%;
+right: 17.34%;
+top: 48.7%;
+bottom: 42.22%;
+text-decoration: none;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 95px;
+line-height: 114px;
+
+color: #FFFFFF;
+}
+.MA a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.BA{
+position: absolute;
+left: 74.9%;
+right: 18.59%;
+top: 59.07%;
+bottom: 31.85%;
+text-decoration: none;
+
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 95px;
+line-height: 114px;
+
+color: #FFFFFF;
+}
+
+
+#vonldiv{
+position: absolute;
+left: 81.4%;
+top: 52%;
+
+
+opacity:0;
+transition: opacity 1s;
+
+}
+
+#MADIV:hover + #vonldiv{
+opacity:1;
+
+}
+@keyframes vonalakanim{
+
+}
+
+#vonlkekdiv{
+position: absolute;
+left: 80%;
+top: 62.2%;
+
+
+
+opacity:0;
+transition: opacity 1s;
+
+}
+
+#BADIV:hover + #vonlkekdiv{
+opacity:1;
+
+}
+@keyframes vonalakkekanim{
+
+}
+
+.BA a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.METU {
+	position: absolute;
+left: 66.56%;
+right: 30.57%;
+top: 92.59%;
+bottom: 5.93%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+}
+.METU a {
+	color: #7F7B7A;
+	text-decoration: none;
+}
+
+.impresszum {
+position: absolute;
+left: 72.03%;
+right: 21.77%;
+top: 92.59%;
+bottom: 5.93%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+}
+.impresszum a{
+	color: #7F7B7A;
+	text-decoration: none;
+}
+.kapcsolat {
+position: absolute;
+left: 80.83%;
+right: 13.49%;
+top: 92.59%;
+bottom: 6.57%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #7F7B7A;
+text-decoration: none;
+
+}
+.kapcsolat a{
+	color: #7F7B7A;
+	text-decoration: none;
+}
+
+.jognyilatkozat{
+position: absolute;
+left: 89.11%;
+right: 2.76%;
+top: 92.59%;
+bottom: 6.57%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px
+
+}
+.jognyilatkozat a{
+	color: #7F7B7A;
+	text-decoration: none;
+}

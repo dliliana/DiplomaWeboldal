@@ -1,0 +1,210 @@
+@import url("https://use.typekit.net/cwq5cmg.css");
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+  margin: 50px;
+  opacity: 0;
+   transition: opacity .5s;
+}
+
+.BAvisszanyil{
+margin-bottom: 40px;
+}
+
+.accordion {
+
+  background-color: transparent;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 5px;
+  width: 100px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  color: #2793AD;
+  background-color: transparent;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 8px;
+  color: #ffffff;
+  padding: 0px;
+  background-color: transparent;
+  display: none;
+  overflow: hidden;
+  transition: height 0.2s ease-out;
+  margin-left: 30px;
+}
+p:hover {
+  color: #2793AD;
+  cursor: pointer;
+}
+
+p {
+  white-space: pre-wrap;
+}
+
+.szemelyek1 {
+  position: absolute;
+  width: 1148px;
+  height: 293px;
+  left: 680px;
+  top: 44px;
+  background-image: url("kepek\\dip_szurke.svg");
+  background-repeat: no-repeat;
+  animation-name: mozgasDIP;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mozgasDIP {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 400px 0px;
+      }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.szemelyek2 {
+ position: absolute;
+  width: 1148px;
+  height: 293px;
+  left: 680px;
+  top: 375px;
+  background-image: url("kepek\\lo_szurke.svg");
+  background-repeat: no-repeat;
+  animation-name: mozgasLO;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mozgasLO {
+  0% {
+    background-position: 400px 0px;
+  }
+  50% {
+    background-position: 0px 0px;
+      }
+  100% {
+    background-position: 400px 0px;
+  }
+}
+
+.szemelyek3 {
+ position: absolute;
+width: 1148px;
+height: 293px;
+left: 680px;
+top: 706px;
+  background-image: url("kepek\\ma_szurke.svg");
+  background-repeat: no-repeat;
+  animation-name: mozgasMA;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes mozgasMA {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 400px 0px;
+      }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.diaknev{
+  font-family: Roboto, sans-serif;
+font-weight: 100;
+font-style: normal;
+font-size: 18px;
+color: #ffffff;
+}
+
+.fingure{
+  display: inline-block;
+  margin: 20px;
+}
+.fingure img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.menupontokfo{
+position: absolute;
+left: 70%;
+top: 118%;
+}
+
+.menupontok{
+color: #7F7B7A;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: inline-block;
+margin-right: 40px;
+margin-bottom: 40px;
+}
+
+.menupontok:hover {
+color: #7F7B7A;
+}
+
+#oldalpanel {
+transition: 0.5s;
+  position: fixed;
+}
+
+#visszanyilkep{
+  position: absolute;
+  width: 28.21px;
+  height: 26.13px;
+  left: 23px;
+  top: 56.5px;
+  transition: opacity 1s;
+  margin-left: 25px;
+}
+
+#visszanyilkepdiv{
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.BAvisszanyil{
+  width: 397px;
+  height: 174.55px;
+  left: 95px;
+  top: 44.53px;
+  margin-bottom: 40px;
+  margin-left: 25px;
+}
+
+#BAvisszanyil:hover + #visszanyilkepdiv{
+opacity:1;
+
+}
