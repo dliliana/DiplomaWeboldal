@@ -103,4 +103,33 @@ function showPic(){
 }
 
 
+function showTervGraf(){
 
+  document.getElementById("szemelyek4").innerHTML=""
+  document.getElementById("szemelyek5").innerHTML=""
+
+  document.getElementById("szemelyek1").innerHTML="<figure class=\"fingure\"> <img src=\"fotok/bácsi_gabriella.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Bácsi Gabriella</p> </figure> \
+   <figure class=\"fingure\"><img src=\"fotok/baumgartner_ildiko.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Baumgartner Ildikó</p> </figure> \
+  <figure class=\"fingure\"><img src=\"fotok/beke_matyas_laszlo.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Beke Mátyás László</p> </figure> \
+  <figure class=\"fingure\"><img src=\"fotok/grozdics_nikolett.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Grozdics Nikolett</p> </figure>";
+
+  document.getElementById("szemelyek2").innerHTML="<figure class=\"fingure\"> <img src=\"fotok/kétyi_balazs.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Kétyi Balázs</p> </figure> \
+   <figure class=\"fingure\"><img src=\"fotok/korda_zoltan_tamas.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Korda Zoltán Tamás</p> </figure> \
+  <figure class=\"fingure\"><img src=\"fotok/némedi_varga_reka.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Némedi-Varga Réka</p> </figure> \
+  <figure class=\"fingure\"><img src=\"kepek2/boi_1.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Szilágyi András</p> </figure>";
+
+  document.getElementById("szemelyek3").innerHTML="<figure class=\"fingure\"> <img src=\"fotok/taskin_aysu.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Taskin Aysu</p> </figure> \
+   <figure class=\"fingure\"><img src=\"fotok/valentini_nikolett.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Valentini Nikolett</p> </figure> \
+  <figure class=\"fingure\"><img src=\"fotok/zsidek_barbara.jpg\" onclick=\"window.transitionToPage('szemely2MA.html')\" width=\"242.49\" height=\"242.49\"/>\
+  <p class=\"diaknev\" onclick=\"window.transitionToPage('szemely2MA.html')\">Zsidek Barbara</p> </figure>";
+}
